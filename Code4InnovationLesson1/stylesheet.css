@@ -1,0 +1,29 @@
+/* This is a comment in css */
+
+/* First start off with the element you want to style and squiggly brackets */
+p {
+    /* Then you choose the attribute you want to style and set it to a value */
+    /* Make sure you have semi colons at the end of each line */
+    color: red;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+h1{
+    color: aqua;
+}
+
+h3{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/* You can also style multiple elements like this*/
+table, th, td {
+    border: 1px solid;
+    color: white;
+}

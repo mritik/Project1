@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- This is how you write comments-->
+
+<!-- The html tag is mandatory and the first tag you should always write (you can write the Doctype like above but that's not necessary)-->
+<html>
+    
+    <!-- head tags are the next tags you should write
+         Any imported stylesheets, frameworks or javascript files go here-->
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    
+    <!-- body tags are also in every html file and this is where 
+         your content tags go -->
+    <body>
+        
+        <!-- tag to center elements (this doesn't work if you external css overriding it)
+             In that case you'll have to do inline css to override your stylesheet (line 26) -->
+        <center>
+            <!-- heading tags range from h1 to h6 and are decreasing in size -->
+            <h1>This is our Website</h1>
+        </center>
+        <h3>This is a smaller header</h3>
+        
+        <!-- link tag, href is an element that tells the reference of the link -->
+        <a href="page2.html">Page 2</a>
+        
+        <!-- text/paragraph text tag
+             I've done some inline css here to show how to override your stylesheet styling-->
+        <p style="text-align: center">Insert Some Random Text Here</p>
+        
+        <!-- adding line breaks in code does nothing so you have to use the break tag -->
+        <br>
+        <p>Some more text here</p>
+        
+        <p>Here's an image:</p>
+        <br>
+        
+        <!-- image tag, src is the reference/file name of the image, alt text is what displays if the image is not found -->
+        <!-- note that your image MUST be in the same folder as your html file or it won't be found -->
+        <img src="C4Innovation_Logo.png" alt="Random Logo Image">
+
+        <br>
+        <br>
+        <br>
+        <p>Some final text after a lot of breaks</p>
+        <br>
+        <!-- bold and italics text tag (this can be done in css too) -->
+        <b><p>This is how we bold text</p></b>
+        <i><p>This is how we italicize text</p></i>
+        
+        <br>
+        
+        <!-- Creates an html table
+             tr defines a table row, th defines a table header, td defines a table box--> 
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td>Kalpana</td>
+            <td>Ramana</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Rayka</td>
+            <td>Farahmand</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>David</td>
+            <td>Lee</td>
+            <td>7</td>
+          </tr>
+        </table>
+        
+
+        
+    </body>
+</html>
